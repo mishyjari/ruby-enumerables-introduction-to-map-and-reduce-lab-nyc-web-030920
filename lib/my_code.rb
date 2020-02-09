@@ -48,4 +48,14 @@ def reduce_all_to_true(arr)
     i += 1
   end
 end
+
+def reduce_any_to_true(arr)
+  output = false
+  i = 0
+  while i < arr.length do
+    output = true if arr[i]
+    i += 1
+  end
+end
+  
   
